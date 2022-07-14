@@ -1,0 +1,11 @@
+error in requestProcessor SyntaxError: Unexpected token V in JSON at position 0 SyntaxError: Unexpected token V in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at doConversion (/bb/bin/package/a/annopdf/1.0.19/bin/annopdf/index.js:124:48)
+    at /bb/bin/package/a/annopdf/1.0.19/bin/annopdf/index.js:160:49
+    at zalgoSafe (/bb/bin/package/a/annopdf/1.0.19/bin/annopdf/node_modules/dezalgo/dezalgo.js:20:10)
+    at f (/bb/bin/package/a/annopdf/1.0.19/bin/annopdf/node_modules/once/once.js:25:25)
+    at IncomingForm.<anonymous> (/bb/bin/package/a/annopdf/1.0.19/bin/annopdf/node_modules/formidable/src/Formidable.js:183:9)
+    at IncomingForm.emit (node:events:390:28)
+    at IncomingForm._maybeEnd (/bb/bin/package/a/annopdf/1.0.19/bin/annopdf/node_modules/formidable/src/Formidable.js:612:10)
+    at /bb/bin/package/a/annopdf/1.0.19/bin/annopdf/node_modules/formidable/src/Formidable.js:390:14
+    at /bb/bin/package/a/annopdf/1.0.19/bin/annopdf/node_modules/formidable/src/VolatileFile.js:77:7
